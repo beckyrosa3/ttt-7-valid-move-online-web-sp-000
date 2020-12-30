@@ -20,5 +20,3 @@ elsif board[index] == " " || "" || nil
 
   end
 end
-
-
