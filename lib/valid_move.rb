@@ -11,7 +11,7 @@ if position_taken? == true && position_taken?.between?(0, 9)
   end
 end
 
-def position_taken?(valid_move)
+def position_taken?
 
 if (board[index] == "X") || (board[index] == "O")
   true
