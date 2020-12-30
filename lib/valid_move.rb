@@ -15,7 +15,7 @@ end
 
   def valid_move?(index)
 
-  if index.between(0,8) && position_taken == false
+  if index.between(0,8) && !position_taken
       true
     else
       false
