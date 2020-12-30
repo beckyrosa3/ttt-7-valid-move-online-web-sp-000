@@ -13,6 +13,7 @@ elsif board[index] == " " || "" || nil
   end
 end
 
-def valid_move?(board, index)
-  (board[index].between(0,8)) && (!position_taken)
+def valid_move?(board, position)
+  index = position.to_i-1
+  (board[position].between(0,8)) && (!position_taken)
 end
